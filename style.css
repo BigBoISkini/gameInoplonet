@@ -1,0 +1,27 @@
+body{
+    background-image: url('./img/fon.png');
+}
+
+.grow{
+    min-width: 100%;
+    height: 1000px;
+    display: flex;
+}
+
+.block{
+    width: 60px;
+    height: 60px;
+    position: relative;
+    background-image: url('./img/free-icon-space-ship-1970285.png');
+    background-size: 60px 60px;
+}
+
+.score{
+    width: 200px;
+    height: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+}
